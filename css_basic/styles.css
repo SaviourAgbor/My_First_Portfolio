@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
+
+main, article {
+  overflow-y: auto;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+header {
+  margin: 0 0 80px 10px ;
+  color:brown
+}
